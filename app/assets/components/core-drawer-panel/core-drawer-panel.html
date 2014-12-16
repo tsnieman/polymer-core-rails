@@ -81,7 +81,7 @@ To position the drawer to the right, add `rightDrawer` attribute.
 <polymer-element name="core-drawer-panel" touch-action="auto">
 <template>
 
-  <link rel="stylesheet" href="core-drawer-panel.css">
+  <link rel="stylesheet" href="core-drawer-panel.css" shim-shadowdom>
 
   <core-media-query query="max-width: {{forceNarrow ? '' : responsiveWidth}}" queryMatches="{{queryMatches}}"></core-media-query>
 
